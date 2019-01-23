@@ -6,12 +6,14 @@ Recent work in deep learning has shown that the artificial neural networks  are 
 ### Citation
 
 If you find generalized likelihood ratio method useful in your research, please consider citing:
+
     @article{peng2019stochastic,
         Author = {Yijie Peng, Li Xiao, Bernd Heidergott,Jeff L. Hong, Henry Lam},
         Title = {Stochastic Gradient Estimation for Artificial Neural Networks},
         Journal = {Preprint in Researchgate with DOI: 10.13140/RG.2.2.33563.11040/1},
         Year = {2019}
     }
+    
       @article{Li2019brain-like,
         Author = {Li Xiao, Yijie Peng,Jeff L. Hong, Zewu Ke},
         Title = {Training Artificial Neural Networks by Generalized Likelihood Ratio Method: Exploring Brain-like Learning to Improve Adversarial Defensiveness},
