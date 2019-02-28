@@ -10,14 +10,15 @@ If you find generalized likelihood ratio method useful in your research, please 
     @article{peng2019stochastic,
         Author = {Yijie Peng, Li Xiao, Bernd Heidergott,Jeff L. Hong, Henry Lam},
         Title = {Stochastic Gradient Estimation for Artificial Neural Networks},
-        Journal = {Preprint in Researchgate with DOI: 10.13140/RG.2.2.33563.11040/1},
+        Journal = {Preprint with DOI: 10.2139/ssrn.3318847},
         Year = {2019}
     }
     
       @article{Li2019brain-like,
         Author = {Li Xiao, Yijie Peng,Jeff L. Hong, Zewu Ke},
         Title = {Training Artificial Neural Networks by Generalized Likelihood Ratio Method: Exploring Brain-like Learning to Improve Adversarial Defensiveness},
-        Journal = {Preprint in Researchgate with DOI: 10.13140/RG.2.2.28110.51521},
+        Journal = {CoRR},
+        volume   = {abs/1902.00358},
         Year = {2019}
     } 
     
