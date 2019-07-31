@@ -32,6 +32,8 @@ The code is developed based on python 3.7.1
 
 ./Training_by_GLR_and_BP/GLR/Training_by_GLR_with_0_1_loss_and_threshold.py: Training with GLR method using 0-1 loss and threshold function
 
+./train_minist_by_sigmoid_Laplacian.py: Training with GLR method by adding Laplacian noise
+
 ### Generate Adversarial Samples:
 
 ./Generate_adversarial_samples/Training_by_BP.py:Training using BP for MLP with two hidden layers
