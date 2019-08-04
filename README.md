@@ -16,7 +16,7 @@ If you find generalized likelihood ratio method useful in your research, please 
     
       @article{Li2019brain-like,
         Author = {Li Xiao, Yijie Peng,Jeff L. Hong, Zewu Ke},
-        Title = {Training Artificial Neural Networks by Generalized Likelihood Ratio Method: Exploring Brain-like Learning to Improve Adversarial Defensiveness},
+        Title = {Training Artificial Neural Networks by Generalized Likelihood Ratio Method: Exploring Brain-like Learning to Improve Robustness},
         Journal = {CoRR},
         volume   = {abs/1902.00358},
         Year = {2019}
