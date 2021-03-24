@@ -1,7 +1,7 @@
-# Training Artificial Neural Networks by Generalized Likelihood Ratio Method: Exploring Brain-like Learning to Improve Robustness
+# A New Likelihood Ratio Method for Training Artificial Neural Networks
 
 ### Introduction
-In this work, we propose a generalized likelihood ratio method capable of training the artificial neural networks with some biological brain-like mechanisms,.e.g., (a) learning by the loss value, (b) learning via neurons with discontinuous activation and loss functions. The traditional back propagation method cannot train the artificial neural networks with aforementioned brain-like learning mechanisms. Numerical results show that the robustness of various artificial neural networks trained by the new method is significantly improved when the input data is affected by both the natural noises and adversarial attacks.
+We investigate a new approach to compute the gradients of artificial neural networks (ANNs), based on the so-called push-out likelihood ratio method. Unlike the widely used backpropagation (BP) method that requires continuity of the loss function and the activation function, our approach bypasses this requirement by injecting artificial noises into the signals passed along the neurons. We show how this approach has a similar computational complexity as BP, and moreover is more advantageous in terms of removing the backward recursion and eliciting transparent formulas. We also formalize the connection between BP, a pivotal technique for training ANNs, and infinitesimal perturbation analysis, a classic path-wise derivative estimation approach, so that both our new proposed methods and BP can be better understood in the context of stochastic gradient estimation. Our approach allows efficient training for ANNs with more flexibility on the loss and activation functions, and shows empirical improvements on the robustness of ANNs under adversarial attacks and corruptions of natural noises.
 
 ### Citation
 
@@ -15,11 +15,10 @@ If you find generalized likelihood ratio method useful in your research, please 
     }
     
       @article{Li2019brain-like,
-        Author = {Li Xiao, Yijie Peng,Jeff L. Hong, Zewu Ke},
+        Author = {Li Xiao, Yijie Peng,Jeff L. Hong, Zewu Ke,Shuhuai Yang},
         Title = {Training Artificial Neural Networks by Generalized Likelihood Ratio Method: Exploring Brain-like Learning to Improve Robustness},
-        Journal = {CoRR},
-        volume   = {abs/1902.00358},
-        Year = {2019}
+        Journal = {IEEE 16th International Conference on Automation Science and Engineering (CASE)},
+        Year = {2020}
     } 
  
 ### Requirements: software
